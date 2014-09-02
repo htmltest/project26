@@ -208,8 +208,7 @@ var iScrollInstance;
                 $('#wrapper').css({'top': -curScrollTop});
                 $('#wrapper').data('scrollTop', curScrollTop);
             }
-            $('header, .promo-top').css({'margin-left': -($(window).width() - $('#wrapper').width()) / 2});
-            $('#promo.fixed h1').css({'margin-left': -223 - ($(window).width() - $('#wrapper').width()) / 2});
+            $('header').css({'margin-left': -($(window).width() - $('#wrapper').width()) / 2});
 
             var curIndex = $('.gallery-links a').index($(this));
             $('.item-gallery-list ul li a').eq(curIndex).click();
@@ -237,7 +236,7 @@ var iScrollInstance;
                     $('body').css({'width': 'auto', 'height': '100%', 'overflow': 'visible'});
                     $(window).scrollTop($('#wrapper').data('scrollTop'));
                 }
-                $('header, .promo-top').css({'margin-left': 0});
+                $('header').css({'margin-left': 0});
                 $('#promo.fixed h1').removeAttr('style');
 
                 $('.item-gallery').removeClass('item-gallery-open');

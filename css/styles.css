@@ -109,6 +109,7 @@ area {outline:none}
 .gallery-download a {color:#fff; text-decoration:none}
 .gallery-download a:hover {text-decoration:underline}
 
+.triangle-block {position:absolute; left:0; top:0; height:100%}
 .triangle {position:absolute; z-index:6}
 .triangle-01 {left:-290px; top:-128px}
 .triangle-02 {left:179px; top:13px}
